@@ -1,0 +1,28 @@
+{
+  "name": "mtigdemir/laravel-turkey-address",
+  "description": "Laravel Turkey Address",
+  "authors": [
+    {
+      "name": "Muharrem Tığdemir",
+      "email": "muharrem.tigdemir@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.2",
+    "illuminate/database": "^5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6",
+    "mockery/mockery": "^0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mtigdemir\\Address\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mtigdemir\\Address\\Test\\": "tests/"
+    }
+  }
+}
